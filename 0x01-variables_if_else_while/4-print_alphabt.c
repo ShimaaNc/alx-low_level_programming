@@ -13,15 +13,13 @@
 
 int main(void)
 {
-int a, A;
-
+ int a;
 for (a = 'a'; a <= 'z'; a++)
+{
+if (a != 'q' && a != 'e')
 {
 putchar(a);
 }
-for (A = 'A'; A <= 'Z'; A++)
-{
-putchar(A);
 }
 putchar('\n');
 return (0);

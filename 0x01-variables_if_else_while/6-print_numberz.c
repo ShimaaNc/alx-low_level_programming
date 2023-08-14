@@ -13,15 +13,10 @@
 
 int main(void)
 {
-int a, A;
-
-for (a = 'a'; a <= 'z'; a++)
+int a;
+for (a = 0; a <= 9; a++)
 {
-putchar(a);
-}
-for (A = 'A'; A <= 'Z'; A++)
-{
-putchar(A);
+putchar(a + '0');
 }
 putchar('\n');
 return (0);
