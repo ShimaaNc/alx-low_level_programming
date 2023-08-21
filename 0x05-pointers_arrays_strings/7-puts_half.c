@@ -1,5 +1,5 @@
 #include "main.h"
-/
+/**
 *puts_half - puts half of a string
 *@str: string
 *Return:void
@@ -23,7 +23,7 @@ _putchar('\n');
 }
 
 
-/
+/**
  *_strlen - returns the length of a string
  * @s: string
  *Return: returns lenght;
