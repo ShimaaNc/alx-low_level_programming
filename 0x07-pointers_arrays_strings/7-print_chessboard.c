@@ -7,7 +7,7 @@
 
 void print_chessboard(char (*a)[8])
 {
-int i, j;
+int x, y;
 
 for (x = 0; x < 8; x++)
 {
