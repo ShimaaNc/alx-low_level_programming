@@ -30,7 +30,8 @@ for (; str[i]; i++)
 cp[i] = str[i];
 }
 
-co[l] = '\0';
+cp[l] = '\0';
+}
 
 return (cp);
 
