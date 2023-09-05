@@ -6,7 +6,7 @@
 *@size: Size of the array
 *@c: Character to insert
 *Return: NULL if size is zero or if it fails,
-*pointer to array if everything is normal.
+*pointer to array initialize or NULL.
 */
 
 char *create_array(unsigned int size, char c)
@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 		return (0);
 
 	while (size--)
-		n[size] =  c;
+		n[size] = c;
 
 	return (n);
 }
