@@ -24,5 +24,5 @@ return (NULL);
 for (i = 0; i < size; i++)
 a[i] = c;
 
-return (array);
+return (a);
 }
