@@ -16,7 +16,7 @@ int i = 0, l;
 if (str == NULL)
 return (NULL);
 
-for (; str[i] != '\0'; i++)
+for (; str[i]; i++)
 l++;
 cp = malloc(sizeof(char) * (l + 1));
 
